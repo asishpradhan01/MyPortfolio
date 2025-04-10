@@ -1,0 +1,39 @@
+@media screen and (max-width: 784px) {
+  .pic {
+    height: 83vh;
+  }
+  .section1, #about, .row {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 784px) {
+  .navbar {
+    display: none;
+  }
+
+  #hamburger {
+    display: flex;
+  }
+
+  .pic, section {
+    height: fit-content;
+  }
+
+  section {
+    margin: 0 1%;
+  }
+
+   .hamburger-menu {
+    margin-left: 300px;
+  }
+
+  #hamburger {
+    margin-left: 26px;
+  }
+}
+  
+
+ 
