@@ -1,4 +1,4 @@
-@media screen and (max-width: 1200px) {
+@media (max-width: 784px) {
   .pic {
     height: 84vh;
   }
@@ -7,7 +7,7 @@
   }
 }
 
-@media screen and (max-width: 784px) {
+@media (max-width: 600px) {
   .navbar {
     display: none;
   }
@@ -16,55 +16,25 @@
     display: flex;
   }
 
-  .myname {
-    font-size: 30px;
-  }
-
-  .pic, section {
-    height: fit-content;
+ .pic {
+    display: block;
   }
 
   section {
     margin: 0 5%;
   }
 
-  .pic {
-    margin-bottom: 10rem;
-  }
-
-  .pic, .profile, .paragraph1 {
-    flex-direction: column;
-  }
-
-  .section1, #about {
-    width: 190%;
-    margin: 0 10px;
-  }
-
- .topheader {
+  .topheader {
     display: flex;
     justify-content: flex-start;
+   width: 100%;
   }
 
-  .section, #contact-me {
-    width: 190%;
-    margin: 0 10px;
+  .contact {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
   }
-  
-  .text-area {
-  width: 330px;
 }
-
-.input-field {
-  width: 165px;
-}
-
-.contact {
-  display: flex;
-  justify-content: flex-start;
-}
-
-}
-  
 
  
