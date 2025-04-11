@@ -7,7 +7,7 @@
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 784px) {
   .navbar {
     display: none;
   }
@@ -16,25 +16,54 @@
     display: flex;
   }
 
- .pic {
-    display: block;
+  .myname {
+    font-size: 30px;
+  }
+
+  .pic, section {
+    height: fit-content;
   }
 
   section {
     margin: 0 5%;
   }
 
-  .topheader {
-    display: flex;
-    justify-content: flex-start;
-   width: 100%;
+  .pic {
+    margin-bottom: 10rem;
   }
 
-  .contact {
+  .pic, .profile, .paragraph1 {
+    flex-direction: column;
+  }
+
+  .section1, #about {
+    width: 190%;
+    margin: 0 10px;
+  }
+
+ .topheader {
     display: flex;
     justify-content: flex-start;
-    width: 100%;
   }
+
+  .section, #contact-me {
+    width: 190%;
+    margin: 0 10px;
+  }
+  
+  .text-area {
+  width: 330px;
+}
+
+.input-field {
+  width: 165px;
+}
+
+.contact {
+  display: flex;
+  justify-content: flex-start;
+}
+
 }
 
  
