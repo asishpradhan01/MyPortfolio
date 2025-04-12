@@ -1,13 +1,11 @@
-@media (max-width: 784px) {
-  .pic {
-    height: 84vh;
-  }
+@media (max-width: 600px) {
   .section1, #about, .row {
     flex-wrap: wrap;
   }
+
 }
 
-@media (max-width: 784px) {
+@media (max-width: 700px) {
   .navbar {
     display: none;
   }
@@ -16,53 +14,37 @@
     display: flex;
   }
 
-  .myname {
-    font-size: 30px;
-  }
-
-  .pic, section {
-    height: fit-content;
+  .pic {
+    display: block;
+    margin-bottom: 7rem;
   }
 
   section {
+    padding-top: 10px;
     margin: 0 5%;
+    width: 100%;
   }
 
-  .pic {
-    margin-bottom: 10rem;
+  .topheader {
+    text-align: start;
   }
 
-  .pic, .profile, .paragraph1 {
+  .row {
+    display: flex;
     flex-direction: column;
   }
 
-  .section1, #about {
-    width: 190%;
-    margin: 0 10px;
+  .myname {
+    font-size: 35px;
   }
 
- .topheader {
-    display: flex;
-    justify-content: flex-start;
+  .hamburger-menu {
+    margin-right: 200px;
   }
 
-  .section, #contact-me {
-    width: 190%;
-    margin: 0 10px;
+  .contact {
+    text-align: start;
   }
-  
-  .text-area {
-  width: 330px;
-}
-
-.input-field {
-  width: 165px;
-}
-
-.contact {
-  display: flex;
-  justify-content: flex-start;
-}
 
 }
 
